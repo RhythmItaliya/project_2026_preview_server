@@ -1,0 +1,15 @@
+{
+    "name": "preview-server",
+    "version": "1.0.0",
+    "description": "Server to tunnel Metro and generate QR codes for PreAppExpo",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "ngrok": "^5.0.0-beta.2",
+        "qrcode-terminal": "^0.12.0",
+        "minimist": "^1.2.8",
+        "chalk": "^4.1.2"
+    }
+}

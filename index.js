@@ -6,7 +6,7 @@ const express = require('express');
 const cors = require('cors');
 
 // --- Configuration ---
-const PROJECT_DIR = argv.project ? path.resolve(argv.project) : path.resolve(__dirname, '../project_2026/demo');
+const PROJECT_DIR = argv.project ? path.resolve(argv.project) : path.resolve(__dirname, '../server/demo');
 const METRO_PORT = 19000;
 const API_PORT = 3002;
 
